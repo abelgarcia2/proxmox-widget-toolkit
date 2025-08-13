@@ -157,19 +157,6 @@ Ext.define('Proxmox.Utils', {
             return modes.map((mode) => [mode, Proxmox.Utils.render_bond_mode(mode)]);
         },
 
-        getNoSubKeyHtml: function (url) {
-            let html_url = Ext.String.format(
-                '<a target="_blank" href="{0}">www.proxmox.com</a>',
-                url || 'https://www.proxmox.com',
-            );
-            return Ext.String.format(
-                gettext(
-                    'You do not have a valid subscription for this server. Please visit {0} to get a list of available options.',
-                ),
-                html_url,
-            );
-        },
-
         format_boolean_with_default: function (value) {
             if (Ext.isDefined(value) && value !== '__default__') {
                 return value ? Proxmox.Utils.yesText : Proxmox.Utils.noText;
@@ -608,24 +595,11 @@ Ext.define('Proxmox.Utils', {
                 success: function (response, opts) {
                     let res = response.result;
                     if (
-                        res === null ||
-                        res === undefined ||
-                        !res ||
-                        res.data.status.toLowerCase() !== 'active'
+                        res !== null &&
+                        res !== undefined &&
+                        res &&
+                        res.data.status.toLowerCase() === 'active'
                     ) {
-                        Ext.Msg.show({
-                            title: gettext('No valid subscription'),
-                            icon: Ext.Msg.WARNING,
-                            message: Proxmox.Utils.getNoSubKeyHtml(res.data.url),
-                            buttons: Ext.Msg.OK,
-                            callback: function (btn) {
-                                if (btn !== 'ok') {
-                                    return;
-                                }
-                                orig_cmd();
-                            },
-                        });
-                    } else {
                         orig_cmd();
                     }
                 },
