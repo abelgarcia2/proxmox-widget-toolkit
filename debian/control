@@ -1,25 +1,31 @@
-Source: proxmox-widget-toolkit
+Source: proxmox-widget-toolkit-without-nuisances
 Section: web
 Priority: optional
-Maintainer: Proxmox Support Team <support@proxmox.com>
+Maintainer: Abel García <65343232+abelgarcia2@users.noreply.github.com>
 Build-Depends: debhelper-compat (= 13),
                libjs-marked,
                proxmox-biome,
                sassc,
                uglifyjs,
 Standards-Version: 4.6.2
-Homepage: https://www.proxmox.com
+Homepage: https://github.com/abelgarcia2/proxmox-widget-toolkit
 
-Package: proxmox-widget-toolkit
+Package: proxmox-widget-toolkit-without-nuisances
 Architecture: all
-Depends: ${misc:Depends}
+Breaks: proxmox-widget-toolkit (<< 5.0.4)
+Replaces: proxmox-widget-toolkit (<< 5.0.4)
+Depends: ${misc:Depends}, proxmox-widget-toolkit (<< 5.0.4)
 Description: Core Widgets and ExtJS Helper Classes for Proxmox Web UIs
  The base framework providing widgets, models, and general utilities for the
- ExtJS based Web UIs of various Proxmox projects
+ ExtJS based Web UIs of various Proxmox projects. Modified to remove annoying
+ 'no valid subscription' popup.
 
-Package: proxmox-widget-toolkit-dev
+Package: proxmox-widget-toolkit-without-nuisances-dev
 Architecture: all
-Depends: ${misc:Depends}
+Breaks: proxmox-widget-toolkit-dev (<< 5.0.4)
+Replaces: proxmox-widget-toolkit-dev (<< 5.0.4)
+Depends: ${misc:Depends}, proxmox-widget-toolkit-dev (<< 5.0.4)
 Description: ExtJS based widgets and utilities for development
  Contains some common JavaScript code that some Proxmox projects might used to
  build common interfaces, like the API viewer in each documnetation repo.
+ Modified to remove annoying'no valid subscription' popup.
