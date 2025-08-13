@@ -1,0 +1,51 @@
+name: Build .deb package
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    container:
+      image: debian:trixie
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Add Proxmox Development Package Repository
+        run: |
+          apt-get update && apt-get install -y wget
+          echo "deb [signed-by=/usr/share/keyrings/proxmox-archive-keyring.gpg] http://download.proxmox.com/debian/devel/ trixie main" \
+            > /etc/apt/sources.list.d/proxmox.list
+          wget https://enterprise.proxmox.com/debian/proxmox-archive-keyring-trixie.gpg \
+            -O /usr/share/keyrings/proxmox-archive-keyring.gpg
+
+      - name: Install dependencies
+        run: |
+          apt-get update
+          apt-get -y install \
+            build-essential \
+            debhelper-compat \
+            gettext \
+            git \
+            libjs-marked \
+            lintian \
+            make \
+            proxmox-biome \
+            sassc \
+            uglifyjs
+
+      - name: Build .deb package
+        run: make deb
+
+      - name: Publish release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: proxmox-widget-toolkit_5.0.4_all.deb
