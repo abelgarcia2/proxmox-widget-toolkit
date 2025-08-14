@@ -1,4 +1,4 @@
-proxmox-widget-toolkit-without-nuisances (5.0.4) trixie; urgency=medium
+proxmox-widget-toolkit-without-nuisances (5.0.4-patched) trixie; urgency=medium
 
   * network edit: fix hiding of altnames field if disabled by config.
 
