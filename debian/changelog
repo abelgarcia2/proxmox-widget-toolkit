@@ -1,4 +1,4 @@
-proxmox-widget-toolkit (5.0.4) trixie; urgency=medium
+proxmox-widget-toolkit-without-nuisances (5.0.4) trixie; urgency=medium
 
   * network edit: fix hiding of altnames field if disabled by config.
 
@@ -6,7 +6,7 @@ proxmox-widget-toolkit (5.0.4) trixie; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Mon, 04 Aug 2025 16:11:46 +0200
 
-proxmox-widget-toolkit (5.0.3) trixie; urgency=medium
+proxmox-widget-toolkit-without-nuisances (5.0.3) trixie; urgency=medium
 
   * RRD metric charts:
     - allow one to override the series object for more complex graphs
@@ -17,7 +17,7 @@ proxmox-widget-toolkit (5.0.3) trixie; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Thu, 31 Jul 2025 03:20:54 +0200
 
-proxmox-widget-toolkit (5.0.2) trixie; urgency=medium
+proxmox-widget-toolkit-without-nuisances (5.0.2) trixie; urgency=medium
 
   * network selector: add support for passing a type query parameter.
 
@@ -27,7 +27,7 @@ proxmox-widget-toolkit (5.0.2) trixie; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Thu, 17 Jul 2025 01:36:58 +0200
 
-proxmox-widget-toolkit (5.0.1) trixie; urgency=medium
+proxmox-widget-toolkit-without-nuisances (5.0.1) trixie; urgency=medium
 
   * node service view:
     - rename 'Syslog' button to 'Service System Log'.
@@ -42,7 +42,7 @@ proxmox-widget-toolkit (5.0.1) trixie; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Wed, 16 Jul 2025 00:30:12 +0200
 
-proxmox-widget-toolkit (5.0.0) trixie; urgency=medium
+proxmox-widget-toolkit-without-nuisances (5.0.0) trixie; urgency=medium
 
   * re-build for Debian 13 Trixie based Proxmox project releases.
 
@@ -51,20 +51,20 @@ proxmox-widget-toolkit (5.0.0) trixie; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Tue, 17 Jun 2025 16:54:00 +0200
 
-proxmox-widget-toolkit (4.3.11) bookworm; urgency=medium
+proxmox-widget-toolkit-without-nuisances (4.3.11) bookworm; urgency=medium
 
   * language selector: add Czech as available option.
 
  -- Proxmox Support Team <support@proxmox.com>  Wed, 14 May 2025 14:41:32 +0200
 
-proxmox-widget-toolkit (4.3.10) bookworm; urgency=medium
+proxmox-widget-toolkit-without-nuisances (4.3.10) bookworm; urgency=medium
 
   * api request helper: always html-encode string used for error message to
     avoid potential glitches.
 
  -- Proxmox Support Team <support@proxmox.com>  Tue, 08 Apr 2025 17:36:56 +0200
 
-proxmox-widget-toolkit (4.3.9) bookworm; urgency=medium
+proxmox-widget-toolkit-without-nuisances (4.3.9) bookworm; urgency=medium
 
   * authentication realms: consistently use title case.
 
@@ -75,7 +75,7 @@ proxmox-widget-toolkit (4.3.9) bookworm; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Mon, 07 Apr 2025 12:38:32 +0200
 
-proxmox-widget-toolkit (4.3.8) bookworm; urgency=medium
+proxmox-widget-toolkit-without-nuisances (4.3.8) bookworm; urgency=medium
 
   * node tasks: align view task button label to other uses.
 
@@ -85,7 +85,7 @@ proxmox-widget-toolkit (4.3.8) bookworm; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Fri, 04 Apr 2025 17:05:43 +0200
 
-proxmox-widget-toolkit (4.3.7) bookworm; urgency=medium
+proxmox-widget-toolkit-without-nuisances (4.3.7) bookworm; urgency=medium
 
   * authentication realm edit: use correct property to derive the realm type.
 
@@ -97,13 +97,13 @@ proxmox-widget-toolkit (4.3.7) bookworm; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Wed, 26 Feb 2025 19:12:24 +0100
 
-proxmox-widget-toolkit (4.3.6) bookworm; urgency=medium
+proxmox-widget-toolkit-without-nuisances (4.3.6) bookworm; urgency=medium
 
   * object grid: fix onlineHelp setting from editorConfig for row editors
 
  -- Proxmox Support Team <support@proxmox.com>  Tue, 25 Feb 2025 18:08:50 +0100
 
-proxmox-widget-toolkit (4.3.5) bookworm; urgency=medium
+proxmox-widget-toolkit-without-nuisances (4.3.5) bookworm; urgency=medium
 
   * add form-field component for entering certificate fingerprints
 
@@ -111,7 +111,7 @@ proxmox-widget-toolkit (4.3.5) bookworm; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Tue, 25 Feb 2025 17:08:11 +0100
 
-proxmox-widget-toolkit (4.3.4) bookworm; urgency=medium
+proxmox-widget-toolkit-without-nuisances (4.3.4) bookworm; urgency=medium
 
   * textarea field: add emptyText message to show markdown is supported
 
@@ -119,14 +119,14 @@ proxmox-widget-toolkit (4.3.4) bookworm; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Mon, 20 Jan 2025 11:38:34 +0100
 
-proxmox-widget-toolkit (4.3.3) bookworm; urgency=medium
+proxmox-widget-toolkit-without-nuisances (4.3.3) bookworm; urgency=medium
 
   * display-edit field: add emptyText getter and setter to support binding to
     the property of the underlying edit-field directly.
 
  -- Proxmox Support Team <support@proxmox.com>  Wed, 27 Nov 2024 12:25:44 +0100
 
-proxmox-widget-toolkit (4.3.2) bookworm; urgency=medium
+proxmox-widget-toolkit-without-nuisances (4.3.2) bookworm; urgency=medium
 
   * node: service state: restore original behavior
 
@@ -136,7 +136,7 @@ proxmox-widget-toolkit (4.3.2) bookworm; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Mon, 25 Nov 2024 18:32:21 +0100
 
-proxmox-widget-toolkit (4.3.1) bookworm; urgency=medium
+proxmox-widget-toolkit-without-nuisances (4.3.1) bookworm; urgency=medium
 
   * peraration to fix #5379: panel: authentication realm view: add opt-in
     column displaying whether the realm is default and allow enabling it for a
@@ -157,7 +157,7 @@ proxmox-widget-toolkit (4.3.1) bookworm; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Tue, 19 Nov 2024 12:40:04 +0100
 
-proxmox-widget-toolkit (4.3.0) bookworm; urgency=medium
+proxmox-widget-toolkit-without-nuisances (4.3.0) bookworm; urgency=medium
 
   * css: add some conditions to the tag classes for the tag view
 
@@ -176,7 +176,7 @@ proxmox-widget-toolkit (4.3.0) bookworm; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Mon, 11 Nov 2024 21:57:31 +0100
 
-proxmox-widget-toolkit (4.2.4) bookworm; urgency=medium
+proxmox-widget-toolkit-without-nuisances (4.2.4) bookworm; urgency=medium
 
   * notification: matcher: match-field: show known fields/values
 
@@ -192,7 +192,7 @@ proxmox-widget-toolkit (4.2.4) bookworm; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Wed, 16 Oct 2024 18:54:37 +0200
 
-proxmox-widget-toolkit (4.2.3) bookworm; urgency=medium
+proxmox-widget-toolkit-without-nuisances (4.2.3) bookworm; urgency=medium
 
   * realm edit: don't send type as extra parameter when 'useTypeInUrl' is set
 
@@ -200,13 +200,13 @@ proxmox-widget-toolkit (4.2.3) bookworm; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Thu, 25 Apr 2024 11:45:12 +0200
 
-proxmox-widget-toolkit (4.2.2) bookworm; urgency=medium
+proxmox-widget-toolkit-without-nuisances (4.2.2) bookworm; urgency=medium
 
   * form: move network VLAN field widget over from PVE
 
  -- Proxmox Support Team <support@proxmox.com>  Wed, 24 Apr 2024 21:44:12 +0200
 
-proxmox-widget-toolkit (4.2.1) bookworm; urgency=medium
+proxmox-widget-toolkit-without-nuisances (4.2.1) bookworm; urgency=medium
 
   * fix #5251: tfa: set one-time-code auto-complete hint on TOTP input field
 
@@ -214,7 +214,7 @@ proxmox-widget-toolkit (4.2.1) bookworm; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Tue, 23 Apr 2024 19:25:06 +0200
 
-proxmox-widget-toolkit (4.2.0) bookworm; urgency=medium
+proxmox-widget-toolkit-without-nuisances (4.2.0) bookworm; urgency=medium
 
   * window: add widget for Active Directory specific LDAP-like authentication
 
@@ -254,7 +254,7 @@ proxmox-widget-toolkit (4.2.0) bookworm; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Sun, 21 Apr 2024 12:31:26 +0200
 
-proxmox-widget-toolkit (4.1.5) bookworm; urgency=medium
+proxmox-widget-toolkit-without-nuisances (4.1.5) bookworm; urgency=medium
 
   * dns: provide option to change behavior from sending the new, full actual
     state to what actually changed. This fixes deleting entries in APIs like
@@ -273,7 +273,7 @@ proxmox-widget-toolkit (4.1.5) bookworm; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Thu, 21 Mar 2024 17:40:54 +0100
 
-proxmox-widget-toolkit (4.1.4) bookworm; urgency=medium
+proxmox-widget-toolkit-without-nuisances (4.1.4) bookworm; urgency=medium
 
   * fix #5074: notify: sendmail smtp: fix mailto/mailto-user parameter
     deletion
@@ -291,7 +291,7 @@ proxmox-widget-toolkit (4.1.4) bookworm; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Wed, 28 Feb 2024 11:46:31 +0100
 
-proxmox-widget-toolkit (4.1.3) bookworm; urgency=medium
+proxmox-widget-toolkit-without-nuisances (4.1.3) bookworm; urgency=medium
 
   * notification ui: change icon for match-field tree nodes to avoid clash
     with use for LXC containers
@@ -301,7 +301,7 @@ proxmox-widget-toolkit (4.1.3) bookworm; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Thu, 23 Nov 2023 10:12:50 +0100
 
-proxmox-widget-toolkit (4.1.2) bookworm; urgency=medium
+proxmox-widget-toolkit-without-nuisances (4.1.2) bookworm; urgency=medium
 
   * notification matcher: fix inverted match modes
 
@@ -311,7 +311,7 @@ proxmox-widget-toolkit (4.1.2) bookworm; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Tue, 21 Nov 2023 21:35:56 +0100
 
-proxmox-widget-toolkit (4.1.1) bookworm; urgency=medium
+proxmox-widget-toolkit-without-nuisances (4.1.1) bookworm; urgency=medium
 
   * api-viewer: implement basic oneOf support
 
@@ -328,7 +328,7 @@ proxmox-widget-toolkit (4.1.1) bookworm; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Fri, 17 Nov 2023 16:56:06 +0100
 
-proxmox-widget-toolkit (4.1.0) bookworm; urgency=medium
+proxmox-widget-toolkit-without-nuisances (4.1.0) bookworm; urgency=medium
 
   * text field: add trimValue option to auto-trim leading and trailing
     whitespace from the to be submitted value
@@ -352,7 +352,7 @@ proxmox-widget-toolkit (4.1.0) bookworm; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Tue, 14 Nov 2023 09:11:23 +0100
 
-proxmox-widget-toolkit (4.0.9) bookworm; urgency=medium
+proxmox-widget-toolkit-without-nuisances (4.0.9) bookworm; urgency=medium
 
   * fix using gettext with parameter in various newly added notification and
     sendmail widgets
@@ -361,7 +361,7 @@ proxmox-widget-toolkit (4.0.9) bookworm; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Tue, 03 Oct 2023 10:39:31 +0200
 
-proxmox-widget-toolkit (4.0.8) bookworm; urgency=medium
+proxmox-widget-toolkit-without-nuisances (4.0.8) bookworm; urgency=medium
 
   * fix #4531: acme plugins: correct change detection of dirty form fields
 
@@ -374,7 +374,7 @@ proxmox-widget-toolkit (4.0.8) bookworm; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Wed, 13 Sep 2023 17:16:01 +0200
 
-proxmox-widget-toolkit (4.0.7) bookworm; urgency=medium
+proxmox-widget-toolkit-without-nuisances (4.0.7) bookworm; urgency=medium
 
   * fix #4874: improve error message for invalid hostname
 
@@ -392,13 +392,13 @@ proxmox-widget-toolkit (4.0.7) bookworm; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Wed, 16 Aug 2023 10:43:02 +0200
 
-proxmox-widget-toolkit (4.0.6) bookworm; urgency=medium
+proxmox-widget-toolkit-without-nuisances (4.0.6) bookworm; urgency=medium
 
   * LDAP realm edit: forbid specifying a bind_dn without a password
 
  -- Proxmox Support Team <support@proxmox.com>  Mon, 26 Jun 2023 20:24:57 +0200
 
-proxmox-widget-toolkit (4.0.5) bookworm; urgency=medium
+proxmox-widget-toolkit-without-nuisances (4.0.5) bookworm; urgency=medium
 
   * add Українська - Ukrainian to language map
 
@@ -409,7 +409,7 @@ proxmox-widget-toolkit (4.0.5) bookworm; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Fri, 16 Jun 2023 15:58:27 +0200
 
-proxmox-widget-toolkit (4.0.4) bookworm; urgency=medium
+proxmox-widget-toolkit-without-nuisances (4.0.4) bookworm; urgency=medium
 
   * apt repositories: fix typo for getting the default unknown text
 
@@ -417,7 +417,7 @@ proxmox-widget-toolkit (4.0.4) bookworm; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Fri, 09 Jun 2023 17:29:44 +0200
 
-proxmox-widget-toolkit (4.0.3) bookworm; urgency=medium
+proxmox-widget-toolkit-without-nuisances (4.0.3) bookworm; urgency=medium
 
   * date time field: fix typo in xtype name but add alias for backward compat
 
@@ -436,7 +436,7 @@ proxmox-widget-toolkit (4.0.3) bookworm; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Fri, 09 Jun 2023 08:07:01 +0200
 
-proxmox-widget-toolkit (4.0.2) bookworm; urgency=medium
+proxmox-widget-toolkit-without-nuisances (4.0.2) bookworm; urgency=medium
 
   * markdown parser: allow setting "target" attribute for links
 
@@ -448,7 +448,7 @@ proxmox-widget-toolkit (4.0.2) bookworm; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Sat, 03 Jun 2023 13:45:27 +0200
 
-proxmox-widget-toolkit (4.0.1) bookworm; urgency=medium
+proxmox-widget-toolkit-without-nuisances (4.0.1) bookworm; urgency=medium
 
   * tfa: paperkey: cleanup iframes for printing after window close
 
@@ -459,13 +459,13 @@ proxmox-widget-toolkit (4.0.1) bookworm; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Thu, 01 Jun 2023 16:35:32 +0200
 
-proxmox-widget-toolkit (4.0.0) bookworm; urgency=medium
+proxmox-widget-toolkit-without-nuisances (4.0.0) bookworm; urgency=medium
 
   * re-build for Debian 12 Bookworm based releases
 
  -- Proxmox Support Team <support@proxmox.com>  Thu, 25 May 2023 09:13:29 +0200
 
-proxmox-widget-toolkit (3.7.0) bullseye; urgency=medium
+proxmox-widget-toolkit-without-nuisances (3.7.0) bullseye; urgency=medium
 
   * dark-mode:
     - fix focus and focus-over states for tabs
@@ -480,7 +480,7 @@ proxmox-widget-toolkit (3.7.0) bullseye; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Wed, 17 May 2023 14:02:50 +0200
 
-proxmox-widget-toolkit (3.6.5) bullseye; urgency=medium
+proxmox-widget-toolkit-without-nuisances (3.6.5) bullseye; urgency=medium
 
   * window: ldap auth edit: avoid relying on the default bind property
 
@@ -490,7 +490,7 @@ proxmox-widget-toolkit (3.6.5) bullseye; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Tue, 28 Mar 2023 17:56:10 +0200
 
-proxmox-widget-toolkit (3.6.4) bullseye; urgency=medium
+proxmox-widget-toolkit-without-nuisances (3.6.4) bullseye; urgency=medium
 
   * dark-mode:
     - improve contrast on split buttons
@@ -512,7 +512,7 @@ proxmox-widget-toolkit (3.6.4) bullseye; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Sun, 26 Mar 2023 17:52:48 +0200
 
-proxmox-widget-toolkit (3.6.3) bullseye; urgency=medium
+proxmox-widget-toolkit-without-nuisances (3.6.3) bullseye; urgency=medium
 
   * dark-mode fine-tuning:
     - fix highlighting of active elements in drop down menus
@@ -523,7 +523,7 @@ proxmox-widget-toolkit (3.6.3) bullseye; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Wed, 22 Mar 2023 13:25:05 +0100
 
-proxmox-widget-toolkit (3.6.2) bullseye; urgency=medium
+proxmox-widget-toolkit-without-nuisances (3.6.2) bullseye; urgency=medium
 
   * network edit: add tooltip to bridge ports inputs
 
@@ -537,7 +537,7 @@ proxmox-widget-toolkit (3.6.2) bullseye; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Tue, 21 Mar 2023 16:46:27 +0100
 
-proxmox-widget-toolkit (3.6.1) bullseye; urgency=medium
+proxmox-widget-toolkit-without-nuisances (3.6.1) bullseye; urgency=medium
 
   * repo view: replace non-clickable checkbox with icons
 
@@ -555,7 +555,7 @@ proxmox-widget-toolkit (3.6.1) bullseye; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Mon, 20 Mar 2023 14:13:42 +0100
 
-proxmox-widget-toolkit (3.6.0) bullseye; urgency=medium
+proxmox-widget-toolkit-without-nuisances (3.6.0) bullseye; urgency=medium
 
   * node apt: make changelog window taller for 4:3 ratio and cleanup/modernize
     code
@@ -590,7 +590,7 @@ proxmox-widget-toolkit (3.6.0) bullseye; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Tue, 14 Mar 2023 16:25:37 +0100
 
-proxmox-widget-toolkit (3.5.5) bullseye; urgency=medium
+proxmox-widget-toolkit-without-nuisances (3.5.5) bullseye; urgency=medium
 
   * combobox grid: use the grids view for the error message
 
@@ -612,7 +612,7 @@ proxmox-widget-toolkit (3.5.5) bullseye; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Tue, 31 Jan 2023 17:27:41 +0100
 
-proxmox-widget-toolkit (3.5.4) bullseye; urgency=medium
+proxmox-widget-toolkit-without-nuisances (3.5.4) bullseye; urgency=medium
 
   * api-viewer: allow text selection in the parameter and the return grids
 
@@ -628,7 +628,7 @@ proxmox-widget-toolkit (3.5.4) bullseye; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Wed, 11 Jan 2023 16:09:53 +0100
 
-proxmox-widget-toolkit (3.5.3) bullseye; urgency=medium
+proxmox-widget-toolkit-without-nuisances (3.5.3) bullseye; urgency=medium
 
   * css: do not make full-style tags display as inline-block in the tree
     to avoid height jumps
@@ -637,7 +637,7 @@ proxmox-widget-toolkit (3.5.3) bullseye; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Mon, 21 Nov 2022 11:14:27 +0100
 
-proxmox-widget-toolkit (3.5.2) bullseye; urgency=medium
+proxmox-widget-toolkit-without-nuisances (3.5.2) bullseye; urgency=medium
 
   * host disks: add 'mounted' column
 
@@ -673,7 +673,7 @@ proxmox-widget-toolkit (3.5.2) bullseye; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Thu, 17 Nov 2022 08:37:26 +0100
 
-proxmox-widget-toolkit (3.5.1) bullseye; urgency=medium
+proxmox-widget-toolkit-without-nuisances (3.5.1) bullseye; urgency=medium
 
   * pxar file types: fix over-eager s/text/label/ so that text file icon is
     shown again
@@ -682,7 +682,7 @@ proxmox-widget-toolkit (3.5.1) bullseye; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Mon, 16 May 2022 18:03:35 +0200
 
-proxmox-widget-toolkit (3.5.0) bullseye; urgency=medium
+proxmox-widget-toolkit-without-nuisances (3.5.0) bullseye; urgency=medium
 
   * file browser: try reload again when getting a 503 error
 
@@ -703,7 +703,7 @@ proxmox-widget-toolkit (3.5.0) bullseye; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Sun, 15 May 2022 11:46:54 +0200
 
-proxmox-widget-toolkit (3.4-10) bullseye; urgency=medium
+proxmox-widget-toolkit-without-nuisances (3.4-10) bullseye; urgency=medium
 
   * css: add proxmox-good-row class
 
@@ -715,7 +715,7 @@ proxmox-widget-toolkit (3.4-10) bullseye; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Wed, 27 Apr 2022 18:58:21 +0200
 
-proxmox-widget-toolkit (3.4-9) bullseye; urgency=medium
+proxmox-widget-toolkit-without-nuisances (3.4-9) bullseye; urgency=medium
 
   * file browser: optionally allow showing a "download as tar.zst"
     button, if supported
@@ -728,7 +728,7 @@ proxmox-widget-toolkit (3.4-9) bullseye; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Thu, 14 Apr 2022 07:56:54 +0200
 
-proxmox-widget-toolkit (3.4-8) bullseye; urgency=medium
+proxmox-widget-toolkit-without-nuisances (3.4-8) bullseye; urgency=medium
 
   * fix #3919: log view: show first task output line correctly
 
@@ -748,7 +748,7 @@ proxmox-widget-toolkit (3.4-8) bullseye; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Tue, 12 Apr 2022 16:45:50 +0200
 
-proxmox-widget-toolkit (3.4-7) bullseye; urgency=medium
+proxmox-widget-toolkit-without-nuisances (3.4-7) bullseye; urgency=medium
 
   * extjs: fix check for 'touch' input event in drag and drop handler, making
     the 'pen' pointer event source type, that chrome/chromium emits in some
@@ -756,7 +756,7 @@ proxmox-widget-toolkit (3.4-7) bullseye; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Wed, 23 Feb 2022 12:12:13 +0100
 
-proxmox-widget-toolkit (3.4-6) bullseye; urgency=medium
+proxmox-widget-toolkit-without-nuisances (3.4-6) bullseye; urgency=medium
 
   * utils: render language: fix rendering special default value
 
@@ -764,7 +764,7 @@ proxmox-widget-toolkit (3.4-6) bullseye; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Mon, 14 Feb 2022 11:34:42 +0100
 
-proxmox-widget-toolkit (3.4-5) bullseye; urgency=medium
+proxmox-widget-toolkit-without-nuisances (3.4-5) bullseye; urgency=medium
 
   * login: tfa: hide u2f and yubico-otp if not available
 
@@ -778,7 +778,7 @@ proxmox-widget-toolkit (3.4-5) bullseye; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Thu, 13 Jan 2022 12:52:18 +0100
 
-proxmox-widget-toolkit (3.4-4) bullseye; urgency=medium
+proxmox-widget-toolkit-without-nuisances (3.4-4) bullseye; urgency=medium
 
   * utils: format duration: render years when we can avoid huge day numbers
 
@@ -798,7 +798,7 @@ proxmox-widget-toolkit (3.4-4) bullseye; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Wed, 24 Nov 2021 18:29:56 +0100
 
-proxmox-widget-toolkit (3.4-3) bullseye; urgency=medium
+proxmox-widget-toolkit-without-nuisances (3.4-3) bullseye; urgency=medium
 
   * data: diffstore: fix autoDestroyRstore option (regression from ExtJS 7)
 
@@ -820,7 +820,7 @@ proxmox-widget-toolkit (3.4-3) bullseye; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Sat, 20 Nov 2021 21:41:37 +0100
 
-proxmox-widget-toolkit (3.4-2) bullseye; urgency=medium
+proxmox-widget-toolkit-without-nuisances (3.4-2) bullseye; urgency=medium
 
   * TFA login window: fix a formatted label showed when being low on unused
     recovery-keys
@@ -829,7 +829,7 @@ proxmox-widget-toolkit (3.4-2) bullseye; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Mon, 15 Nov 2021 10:23:34 +0100
 
-proxmox-widget-toolkit (3.4-1) bullseye; urgency=medium
+proxmox-widget-toolkit-without-nuisances (3.4-1) bullseye; urgency=medium
 
   * panel/RRDCharts: enable scrolling for RRDCharts on touchscreens
 
@@ -848,7 +848,7 @@ proxmox-widget-toolkit (3.4-1) bullseye; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Thu, 11 Nov 2021 21:11:16 +0100
 
-proxmox-widget-toolkit (3.3-6) bullseye; urgency=medium
+proxmox-widget-toolkit-without-nuisances (3.3-6) bullseye; urgency=medium
 
   * fix #3542: node: task logs: query correct node for tasks in clusters
 
@@ -856,7 +856,7 @@ proxmox-widget-toolkit (3.3-6) bullseye; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Tue, 27 Jul 2021 16:41:01 +0200
 
-proxmox-widget-toolkit (3.3-5) bullseye; urgency=medium
+proxmox-widget-toolkit-without-nuisances (3.3-5) bullseye; urgency=medium
 
   * node: repos: add possibility to link online help
 
@@ -868,7 +868,7 @@ proxmox-widget-toolkit (3.3-5) bullseye; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Mon, 19 Jul 2021 17:52:08 +0200
 
-proxmox-widget-toolkit (3.3-4) bullseye; urgency=medium
+proxmox-widget-toolkit-without-nuisances (3.3-4) bullseye; urgency=medium
 
   * acme: allow wildcards as domain
 
@@ -880,13 +880,13 @@ proxmox-widget-toolkit (3.3-4) bullseye; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Tue, 13 Jul 2021 18:42:51 +0200
 
-proxmox-widget-toolkit (3.3-3) bullseye; urgency=medium
+proxmox-widget-toolkit-without-nuisances (3.3-3) bullseye; urgency=medium
 
   * realm view/edit: make more generic for better reuse
 
  -- Proxmox Support Team <support@proxmox.com>  Mon, 12 Jul 2021 09:52:27 +0200
 
-proxmox-widget-toolkit (3.3-2) bullseye; urgency=medium
+proxmox-widget-toolkit-without-nuisances (3.3-2) bullseye; urgency=medium
 
   * node: repos: only show suites warning at the top if enabled repository is
     affected
@@ -897,7 +897,7 @@ proxmox-widget-toolkit (3.3-2) bullseye; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Fri, 09 Jul 2021 17:30:43 +0200
 
-proxmox-widget-toolkit (3.2-5) bullseye; urgency=medium
+proxmox-widget-toolkit-without-nuisances (3.2-5) bullseye; urgency=medium
 
   * network: always ask for confirmation before removing a network
     interface from the configuration. While it is not that dangerous as we
@@ -911,7 +911,7 @@ proxmox-widget-toolkit (3.2-5) bullseye; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Thu, 08 Jul 2021 14:30:44 +0200
 
-proxmox-widget-toolkit (3.2-4) bullseye; urgency=medium
+proxmox-widget-toolkit-without-nuisances (3.2-4) bullseye; urgency=medium
 
   * node: APT repositories: upgrade "no Proxmox product repo configured" from
     warning to error
@@ -924,7 +924,7 @@ proxmox-widget-toolkit (3.2-4) bullseye; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Mon, 05 Jul 2021 16:50:23 +0200
 
-proxmox-widget-toolkit (3.2-3) bullseye; urgency=medium
+proxmox-widget-toolkit-without-nuisances (3.2-3) bullseye; urgency=medium
 
   * node: repos: handle that components can be undefined
 
@@ -944,7 +944,7 @@ proxmox-widget-toolkit (3.2-3) bullseye; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Mon, 05 Jul 2021 10:10:47 +0200
 
-proxmox-widget-toolkit (3.2-2) bullseye; urgency=medium
+proxmox-widget-toolkit-without-nuisances (3.2-2) bullseye; urgency=medium
 
   * avoid using unique ids for components that may have more than one instance
     at the same time. Fixes and issue with switching between nodes on the new
@@ -952,7 +952,7 @@ proxmox-widget-toolkit (3.2-2) bullseye; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Mon, 05 Jul 2021 09:47:46 +0200
 
-proxmox-widget-toolkit (3.2-1) bullseye; urgency=medium
+proxmox-widget-toolkit-without-nuisances (3.2-1) bullseye; urgency=medium
 
   * css: some markdown heading and paragraph font-size & padding tuning
 
@@ -972,7 +972,7 @@ proxmox-widget-toolkit (3.2-1) bullseye; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Sat, 03 Jul 2021 00:12:34 +0200
 
-proxmox-widget-toolkit (3.1-4) bullseye; urgency=medium
+proxmox-widget-toolkit-without-nuisances (3.1-4) bullseye; urgency=medium
 
   * cbind mixin: also descend in elements with an cbind property
 
@@ -980,7 +980,7 @@ proxmox-widget-toolkit (3.1-4) bullseye; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Mon, 28 Jun 2021 19:14:10 +0200
 
-proxmox-widget-toolkit (3.1-3) bullseye; urgency=medium
+proxmox-widget-toolkit-without-nuisances (3.1-3) bullseye; urgency=medium
 
   * css: markdown: add some nicer table, blockquote and task-list checkbox
     styling
@@ -993,7 +993,7 @@ proxmox-widget-toolkit (3.1-3) bullseye; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Wed, 23 Jun 2021 23:11:37 +0200
 
-proxmox-widget-toolkit (3.1-2) bullseye; urgency=medium
+proxmox-widget-toolkit-without-nuisances (3.1-2) bullseye; urgency=medium
 
   * ui: network: add, by default hidden, columns for the `vlan-id` and the
     `vlan-raw-device`
@@ -1002,7 +1002,7 @@ proxmox-widget-toolkit (3.1-2) bullseye; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Fri, 18 Jun 2021 15:32:27 +0200
 
-proxmox-widget-toolkit (3.1-1) bullseye; urgency=medium
+proxmox-widget-toolkit-without-nuisances (3.1-1) bullseye; urgency=medium
 
   * support ExtJS 7
 
@@ -1012,24 +1012,24 @@ proxmox-widget-toolkit (3.1-1) bullseye; urgency=medium
 
   * data/ProxmoxProxy: set responseType to undefined for XMLHTTPRequest
 
-  * ship api-viewer in new proxmox-widget-toolkit-dev package to improve
+  * ship api-viewer in new proxmox-widget-toolkit-without-nuisances-dev package to improve
     possibility for code reuse
 
  -- Proxmox Support Team <support@proxmox.com>  Wed, 02 Jun 2021 16:16:02 +0200
 
-proxmox-widget-toolkit (3.0-2) bullseye; urgency=medium
+proxmox-widget-toolkit-without-nuisances (3.0-2) bullseye; urgency=medium
 
   * disks: fix regression in S.M.A.R.T. window
 
  -- Proxmox Support Team <support@proxmox.com>  Fri, 14 May 2021 10:34:57 +0200
 
-proxmox-widget-toolkit (3.0-1) bullseye; urgency=medium
+proxmox-widget-toolkit-without-nuisances (3.0-1) bullseye; urgency=medium
 
   * re-build for Debian 11 Bullseye based releases
 
  -- Proxmox Support Team <support@proxmox.com>  Thu, 13 May 2021 19:46:29 +0200
 
-proxmox-widget-toolkit (2.5-4) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.5-4) pve pmg; urgency=medium
 
   * info widget: set default usage warning threshold from 60% to 75%
 
@@ -1041,14 +1041,14 @@ proxmox-widget-toolkit (2.5-4) pve pmg; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Fri, 07 May 2021 18:00:29 +0200
 
-proxmox-widget-toolkit (2.5-3) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.5-3) pve pmg; urgency=medium
 
   * toolkit: update email regex for ACME account to allow more than two domain
     parts again
 
  -- Proxmox Support Team <support@proxmox.com>  Sat, 24 Apr 2021 19:30:08 +0200
 
-proxmox-widget-toolkit (2.5-2) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.5-2) pve pmg; urgency=medium
 
   * rrd chart: add option to render values and Y-axis with a power-of-two base
 
@@ -1067,7 +1067,7 @@ proxmox-widget-toolkit (2.5-2) pve pmg; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Thu, 22 Apr 2021 20:34:39 +0200
 
-proxmox-widget-toolkit (2.5-1) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.5-1) pve pmg; urgency=medium
 
   * panel/acme-domains: fix cyclic dependency in view model
 
@@ -1081,7 +1081,7 @@ proxmox-widget-toolkit (2.5-1) pve pmg; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Tue, 13 Apr 2021 09:11:48 +0200
 
-proxmox-widget-toolkit (2.4-9) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.4-9) pve pmg; urgency=medium
 
   * improve ranged selection and deselection performance in CheckboxModel
 
@@ -1090,7 +1090,7 @@ proxmox-widget-toolkit (2.4-9) pve pmg; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Tue, 23 Mar 2021 11:29:43 +0100
 
-proxmox-widget-toolkit (2.4-8) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.4-8) pve pmg; urgency=medium
 
   * add async API request and sleep helpers
 
@@ -1098,7 +1098,7 @@ proxmox-widget-toolkit (2.4-8) pve pmg; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Mon, 22 Mar 2021 16:23:16 +0100
 
-proxmox-widget-toolkit (2.4-7) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.4-7) pve pmg; urgency=medium
 
   * data: stores: drop storeid requirement
 
@@ -1111,7 +1111,7 @@ proxmox-widget-toolkit (2.4-7) pve pmg; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Tue, 16 Mar 2021 13:31:23 +0100
 
-proxmox-widget-toolkit (2.4-6) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.4-6) pve pmg; urgency=medium
 
   * disk list: partitions do not have a S.M.A.R.T. status, avoid showing
     'unknown'
@@ -1123,7 +1123,7 @@ proxmox-widget-toolkit (2.4-6) pve pmg; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Fri, 05 Mar 2021 20:22:00 +0100
 
-proxmox-widget-toolkit (2.4-5) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.4-5) pve pmg; urgency=medium
 
   * disk list: restore info about ceph
 
@@ -1137,14 +1137,14 @@ proxmox-widget-toolkit (2.4-5) pve pmg; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Tue, 09 Feb 2021 14:31:03 +0100
 
-proxmox-widget-toolkit (2.4-4) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.4-4) pve pmg; urgency=medium
 
   * data reader: cope with null respones for not configured data, treat like
     an empty response
 
  -- Proxmox Support Team <support@proxmox.com>  Fri, 15 Jan 2021 16:24:08 +0100
 
-proxmox-widget-toolkit (2.4-3) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.4-3) pve pmg; urgency=medium
 
   * input panel: support convenience top column
 
@@ -1154,7 +1154,7 @@ proxmox-widget-toolkit (2.4-3) pve pmg; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Mon, 23 Nov 2020 18:46:02 +0100
 
-proxmox-widget-toolkit (2.4-2) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.4-2) pve pmg; urgency=medium
 
   * input panel: improve column scaling behavior with non-default browser or OS
     scaling and DPI settings
@@ -1167,14 +1167,14 @@ proxmox-widget-toolkit (2.4-2) pve pmg; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Mon, 23 Nov 2020 08:14:50 +0100
 
-proxmox-widget-toolkit (2.3-10) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.3-10) pve pmg; urgency=medium
 
   * utils: get help info: fix normalization with multiple minuses by using a
     more compatible approach
 
  -- Proxmox Support Team <support@proxmox.com>  Tue, 10 Nov 2020 16:29:09 +0100
 
-proxmox-widget-toolkit (2.3-9) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.3-9) pve pmg; urgency=medium
 
   * combo grid: set errorMask on store load failure
 
@@ -1184,13 +1184,13 @@ proxmox-widget-toolkit (2.3-9) pve pmg; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Tue, 10 Nov 2020 12:07:55 +0100
 
-proxmox-widget-toolkit (2.3-8) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.3-8) pve pmg; urgency=medium
 
   * Utils: remove product specific task descriptions
 
  -- Proxmox Support Team <support@proxmox.com>  Tue, 03 Nov 2020 17:51:59 +0100
 
-proxmox-widget-toolkit (2.3-7) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.3-7) pve pmg; urgency=medium
 
   * improve redering of icons in navigation element
 
@@ -1198,7 +1198,7 @@ proxmox-widget-toolkit (2.3-7) pve pmg; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Mon, 02 Nov 2020 07:49:22 +0100
 
-proxmox-widget-toolkit (2.3-6) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.3-6) pve pmg; urgency=medium
 
   * edit window: add autoLoadOptions to control API call
 
@@ -1208,7 +1208,7 @@ proxmox-widget-toolkit (2.3-6) pve pmg; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Wed, 28 Oct 2020 18:39:41 +0100
 
-proxmox-widget-toolkit (2.3-5) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.3-5) pve pmg; urgency=medium
 
   * improve multiselect behaviour for checkboxmodel
 
@@ -1216,13 +1216,13 @@ proxmox-widget-toolkit (2.3-5) pve pmg; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Tue, 27 Oct 2020 18:34:16 +0100
 
-proxmox-widget-toolkit (2.3-4) unstable; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.3-4) unstable; urgency=medium
 
   * implement and use systemd_unescape
 
  -- Proxmox Support Team <support@proxmox.com>  Thu, 22 Oct 2020 12:11:53 +0200
 
-proxmox-widget-toolkit (2.3-3) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.3-3) pve pmg; urgency=medium
 
   * tasks: ensure the UPID parameter is always correctly encoded
 
@@ -1230,13 +1230,13 @@ proxmox-widget-toolkit (2.3-3) pve pmg; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Thu, 22 Oct 2020 08:53:18 +0200
 
-proxmox-widget-toolkit (2.3-2) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.3-2) pve pmg; urgency=medium
 
   * add Korean as translation choice
 
  -- Proxmox Support Team <support@proxmox.com>  Thu, 15 Oct 2020 13:27:30 +0200
 
-proxmox-widget-toolkit (2.3-1) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.3-1) pve pmg; urgency=medium
 
   * log/journal views: fix auto scrolling on browser zoom
 
@@ -1246,7 +1246,7 @@ proxmox-widget-toolkit (2.3-1) pve pmg; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Thu, 01 Oct 2020 14:50:35 +0200
 
-proxmox-widget-toolkit (2.2-14) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.2-14) pve pmg; urgency=medium
 
   * tasks viewer: include API token ID if available
 
@@ -1257,7 +1257,7 @@ proxmox-widget-toolkit (2.2-14) pve pmg; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Tue, 29 Sep 2020 10:16:53 +0200
 
-proxmox-widget-toolkit (2.2-12) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.2-12) pve pmg; urgency=medium
 
   * fix #2933: disks: correct behaviour of 'Init GPT' button
 
@@ -1267,7 +1267,7 @@ proxmox-widget-toolkit (2.2-12) pve pmg; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Mon, 07 Sep 2020 13:51:00 +0200
 
-proxmox-widget-toolkit (2.2-11) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.2-11) pve pmg; urgency=medium
 
   * Add focusable pseudo class to edit windows defaultFocus
 
@@ -1280,7 +1280,7 @@ proxmox-widget-toolkit (2.2-11) pve pmg; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Fri, 24 Jul 2020 16:16:52 +0200
 
-proxmox-widget-toolkit (2.2-9) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.2-9) pve pmg; urgency=medium
 
   * add disk and storage related widgets, factored out from Proxmox VE's manager
 
@@ -1288,7 +1288,7 @@ proxmox-widget-toolkit (2.2-9) pve pmg; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Tue, 30 Jun 2020 13:36:05 +0200
 
-proxmox-widget-toolkit (2.2-8) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.2-8) pve pmg; urgency=medium
 
   * format task description: avoid printing undefined ID
 
@@ -1306,7 +1306,7 @@ proxmox-widget-toolkit (2.2-8) pve pmg; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Tue, 16 Jun 2020 16:49:42 +0200
 
-proxmox-widget-toolkit (2.2-7) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.2-7) pve pmg; urgency=medium
 
   * button: make xtype of parent configurable
 
@@ -1314,7 +1314,7 @@ proxmox-widget-toolkit (2.2-7) pve pmg; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Thu, 04 Jun 2020 18:20:16 +0200
 
-proxmox-widget-toolkit (2.2-6) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.2-6) pve pmg; urgency=medium
 
   * improve RRD charts
 
@@ -1322,7 +1322,7 @@ proxmox-widget-toolkit (2.2-6) pve pmg; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Wed, 03 Jun 2020 11:42:55 +0200
 
-proxmox-widget-toolkit (2.2-5) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.2-5) pve pmg; urgency=medium
 
   * JournalView: avoid null dereference on quick tab switch
 
@@ -1337,7 +1337,7 @@ proxmox-widget-toolkit (2.2-5) pve pmg; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Thu, 28 May 2020 18:36:33 +0200
 
-proxmox-widget-toolkit (2.2-4) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.2-4) pve pmg; urgency=medium
 
   * fix #2758: detect half-logged-in 'TFA' cookies and avoid treating them like
     regular login tickets
@@ -1353,7 +1353,7 @@ proxmox-widget-toolkit (2.2-4) pve pmg; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Mon, 25 May 2020 19:04:10 +0200
 
-proxmox-widget-toolkit (2.2-3) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.2-3) pve pmg; urgency=medium
 
   * pending object grid: mark pending changes as darkorange to avoid
     misinterpretation as error.
@@ -1364,7 +1364,7 @@ proxmox-widget-toolkit (2.2-3) pve pmg; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Fri, 22 May 2020 10:09:26 +0200
 
-proxmox-widget-toolkit (2.2-2) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.2-2) pve pmg; urgency=medium
 
   * add common proxmoxlogo class definition
 
@@ -1374,7 +1374,7 @@ proxmox-widget-toolkit (2.2-2) pve pmg; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Mon, 18 May 2020 17:26:04 +0200
 
-proxmox-widget-toolkit (2.2-1) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.2-1) pve pmg; urgency=medium
 
   * diff-store: allow to also auto-create real-store with schematic config only
 
@@ -1382,7 +1382,7 @@ proxmox-widget-toolkit (2.2-1) pve pmg; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Thu, 07 May 2020 16:59:59 +0200
 
-proxmox-widget-toolkit (2.1-7) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.1-7) pve pmg; urgency=medium
 
   * Utils: add auth-realm-sync-test to task descriptions
 
@@ -1392,7 +1392,7 @@ proxmox-widget-toolkit (2.1-7) pve pmg; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Wed, 06 May 2020 17:14:21 +0200
 
-proxmox-widget-toolkit (2.1-6) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.1-6) pve pmg; urgency=medium
 
   * DateTimeField: implement setMaxValue and setMinValue
 
@@ -1400,7 +1400,7 @@ proxmox-widget-toolkit (2.1-6) pve pmg; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Fri, 24 Apr 2020 18:47:21 +0200
 
-proxmox-widget-toolkit (2.1-5) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.1-5) pve pmg; urgency=medium
 
   * add LanguageEditWindow
 
@@ -1414,7 +1414,7 @@ proxmox-widget-toolkit (2.1-5) pve pmg; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Mon, 20 Apr 2020 10:44:21 +0200
 
-proxmox-widget-toolkit (2.1-4) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.1-4) pve pmg; urgency=medium
 
   * ComboGrid: fix validation for !allowBlank disabled fields
 
@@ -1430,7 +1430,7 @@ proxmox-widget-toolkit (2.1-4) pve pmg; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Thu, 16 Apr 2020 18:05:10 +0200
 
-proxmox-widget-toolkit (2.1-3) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.1-3) pve pmg; urgency=medium
 
   * networkedit: bond: add bond-primary and MTU field
 
@@ -1442,7 +1442,7 @@ proxmox-widget-toolkit (2.1-3) pve pmg; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Thu, 30 Jan 2020 17:49:32 +0100
 
-proxmox-widget-toolkit (2.1-2) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.1-2) pve pmg; urgency=medium
 
   * task descriptions: add CT push/pull and HA shutdown
 
@@ -1451,7 +1451,7 @@ proxmox-widget-toolkit (2.1-2) pve pmg; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Tue, 17 Dec 2019 12:02:52 +0100
 
-proxmox-widget-toolkit (2.1-1) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.1-1) pve pmg; urgency=medium
 
   * fix #2421: ComboGrid: correctly validate multiSelect variant
 
@@ -1459,7 +1459,7 @@ proxmox-widget-toolkit (2.1-1) pve pmg; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Tue, 26 Nov 2019 13:00:18 +0100
 
-proxmox-widget-toolkit (2.0-9) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.0-9) pve pmg; urgency=medium
 
   * fix comboBox validation when forceSelection is true
 
@@ -1467,7 +1467,7 @@ proxmox-widget-toolkit (2.0-9) pve pmg; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Wed, 20 Nov 2019 20:28:12 +0100
 
-proxmox-widget-toolkit (2.0-8) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.0-8) pve pmg; urgency=medium
 
   * add hebrew to list of languages
 
@@ -1477,14 +1477,14 @@ proxmox-widget-toolkit (2.0-8) pve pmg; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Thu, 10 Oct 2019 17:04:58 +0200
 
-proxmox-widget-toolkit (2.0-7) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.0-7) pve pmg; urgency=medium
 
   * combogrid: fix validation if valueField is different than
     displayField
 
  -- Proxmox Support Team <support@proxmox.com>  Fri, 16 Aug 2019 12:45:34 +0200
 
-proxmox-widget-toolkit (2.0-6) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.0-6) pve pmg; urgency=medium
 
   * combogrid: always set the initial value, even if not found
 
@@ -1499,7 +1499,7 @@ proxmox-widget-toolkit (2.0-6) pve pmg; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Tue, 13 Aug 2019 15:56:56 +0200
 
-proxmox-widget-toolkit (2.0-5) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.0-5) pve pmg; urgency=medium
 
   * fix syslog panel resizing
 
@@ -1510,7 +1510,7 @@ proxmox-widget-toolkit (2.0-5) pve pmg; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Thu, 11 Jul 2019 19:33:17 +0200
 
-proxmox-widget-toolkit (2.0-4) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.0-4) pve pmg; urgency=medium
 
   * network selector: allow to select IP too
 
@@ -1522,13 +1522,13 @@ proxmox-widget-toolkit (2.0-4) pve pmg; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Fri, 28 Jun 2019 20:30:37 +0200
 
-proxmox-widget-toolkit (2.0-3) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.0-3) pve pmg; urgency=medium
 
   * refactor info/link extraction from onlinehelp to utils
 
  -- Proxmox Support Team <support@proxmox.com>  Mon, 24 Jun 2019 17:54:42 +0200
 
-proxmox-widget-toolkit (2.0-2) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.0-2) pve pmg; urgency=medium
 
   * add network selector widget
 
@@ -1538,13 +1538,13 @@ proxmox-widget-toolkit (2.0-2) pve pmg; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Fri, 14 Jun 2019 20:47:53 +0200
 
-proxmox-widget-toolkit (2.0-1) pve pmg; urgency=medium
+proxmox-widget-toolkit-without-nuisances (2.0-1) pve pmg; urgency=medium
 
   * bump version for Debian Buster / PVE 6
 
  -- Proxmox Support Team <support@proxmox.com>  Wed, 22 May 2019 07:16:02 +0200
 
-proxmox-widget-toolkit (1.0-28) unstable; urgency=medium
+proxmox-widget-toolkit-without-nuisances (1.0-28) unstable; urgency=medium
 
   * show IP/CIDR in host network view
 
@@ -1554,13 +1554,13 @@ proxmox-widget-toolkit (1.0-28) unstable; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Wed, 15 May 2019 13:36:50 +0200
 
-proxmox-widget-toolkit (1.0-27) unstable; urgency=medium
+proxmox-widget-toolkit-without-nuisances (1.0-27) unstable; urgency=medium
 
   * wait for syslog API calls to complete before requesting new ones
 
  -- Proxmox Support Team <support@proxmox.com>  Tue, 07 May 2019 15:13:52 +0000
 
-proxmox-widget-toolkit (1.0-26) unstable; urgency=medium
+proxmox-widget-toolkit-without-nuisances (1.0-26) unstable; urgency=medium
 
   * fix #1784: allow one to set UTC as Timezone
 
@@ -1570,7 +1570,7 @@ proxmox-widget-toolkit (1.0-26) unstable; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Tue, 16 Apr 2019 05:57:58 +0000
 
-proxmox-widget-toolkit (1.0-25) unstable; urgency=medium
+proxmox-widget-toolkit-without-nuisances (1.0-25) unstable; urgency=medium
 
   * MacPrefix: prevent multicast MacPrefixes
 
@@ -1582,13 +1582,13 @@ proxmox-widget-toolkit (1.0-25) unstable; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Wed, 03 Apr 2019 13:58:13 +0200
 
-proxmox-widget-toolkit (1.0-24) unstable; urgency=medium
+proxmox-widget-toolkit-without-nuisances (1.0-24) unstable; urgency=medium
 
   * add DnsOrIP vtype
 
  -- Proxmox Support Team <support@proxmox.com>  Thu, 14 Mar 2019 07:41:44 +0100
 
-proxmox-widget-toolkit (1.0-23) unstable; urgency=medium
+proxmox-widget-toolkit-without-nuisances (1.0-23) unstable; urgency=medium
 
   * tasks: put vzdump into VM/CT category
 
@@ -1598,13 +1598,13 @@ proxmox-widget-toolkit (1.0-23) unstable; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Thu, 28 Feb 2019 10:54:50 +0100
 
-proxmox-widget-toolkit (1.0-22) unstable; urgency=medium
+proxmox-widget-toolkit-without-nuisances (1.0-22) unstable; urgency=medium
 
   * form: proxmox textfield: support binding 'allowBlank'
 
  -- Proxmox Support Team <support@proxmox.com>  Thu, 29 Nov 2018 12:45:28 +0100
 
-proxmox-widget-toolkit (1.0-21) unstable; urgency=medium
+proxmox-widget-toolkit-without-nuisances (1.0-21) unstable; urgency=medium
 
   * Utils: add some task descriptions (disk/storage management and ceph)
 
@@ -1612,7 +1612,7 @@ proxmox-widget-toolkit (1.0-21) unstable; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Thu, 22 Nov 2018 14:59:16 +0100
 
-proxmox-widget-toolkit (1.0-20) unstable; urgency=medium
+proxmox-widget-toolkit-without-nuisances (1.0-20) unstable; urgency=medium
 
   * add node/HostsView to show/edit /etc/hosts
 
@@ -1620,26 +1620,26 @@ proxmox-widget-toolkit (1.0-20) unstable; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Fri, 14 Sep 2018 12:01:12 +0200
 
-proxmox-widget-toolkit (1.0-19) unstable; urgency=medium
+proxmox-widget-toolkit-without-nuisances (1.0-19) unstable; urgency=medium
 
   * add traditional Chinese to language map
 
  -- Proxmox Support Team <support@proxmox.com>  Tue, 12 Jun 2018 16:43:58 +0200
 
-proxmox-widget-toolkit (1.0-18) unstable; urgency=medium
+proxmox-widget-toolkit-without-nuisances (1.0-18) unstable; urgency=medium
 
   * add missing task description mappings
 
  -- Proxmox Support Team <support@proxmox.com>  Mon, 14 May 2018 11:06:33 +0200
 
-proxmox-widget-toolkit (1.0-17) unstable; urgency=medium
+proxmox-widget-toolkit-without-nuisances (1.0-17) unstable; urgency=medium
 
   * fix edit windows being reopened on key-up when closing them with the return
     key
 
  -- Proxmox Support Team <support@proxmox.com>  Thu, 03 May 2018 08:26:34 +0200
 
-proxmox-widget-toolkit (1.0-16) unstable; urgency=medium
+proxmox-widget-toolkit-without-nuisances (1.0-16) unstable; urgency=medium
 
   * add getRecord to ObjectStore
 
@@ -1649,7 +1649,7 @@ proxmox-widget-toolkit (1.0-16) unstable; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Wed, 02 May 2018 13:25:06 +0200
 
-proxmox-widget-toolkit (1.0-15) unstable; urgency=medium
+proxmox-widget-toolkit-without-nuisances (1.0-15) unstable; urgency=medium
 
   * allow pressing enter in ObjectGrids to edit a field
 
@@ -1661,7 +1661,7 @@ proxmox-widget-toolkit (1.0-15) unstable; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Fri, 06 Apr 2018 13:47:56 +0200
 
-proxmox-widget-toolkit (1.0-14) unstable; urgency=medium
+proxmox-widget-toolkit-without-nuisances (1.0-14) unstable; urgency=medium
 
   * fix #1223: add touchscreen override for extjs
 
@@ -1675,19 +1675,19 @@ proxmox-widget-toolkit (1.0-14) unstable; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Thu, 05 Apr 2018 12:18:49 +0200
 
-proxmox-widget-toolkit (1.0-13) unstable; urgency=medium
+proxmox-widget-toolkit-without-nuisances (1.0-13) unstable; urgency=medium
 
   * remove gettext definition in Utils.js
 
  -- Proxmox Support Team <support@proxmox.com>  Thu, 08 Mar 2018 11:37:56 +0100
 
-proxmox-widget-toolkit (1.0-12) unstable; urgency=medium
+proxmox-widget-toolkit-without-nuisances (1.0-12) unstable; urgency=medium
 
   * skip config property for cbind mixin
 
  -- Proxmox Support Team <support@proxmox.com>  Fri, 23 Feb 2018 11:11:38 +0100
 
-proxmox-widget-toolkit (1.0-11) unstable; urgency=medium
+proxmox-widget-toolkit-without-nuisances (1.0-11) unstable; urgency=medium
 
   * rename pve(Show|Hide)Help events
 
@@ -1697,7 +1697,7 @@ proxmox-widget-toolkit (1.0-11) unstable; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Fri, 16 Feb 2018 13:06:39 +0100
 
-proxmox-widget-toolkit (1.0-10) unstable; urgency=medium
+proxmox-widget-toolkit-without-nuisances (1.0-10) unstable; urgency=medium
 
   * port fixes and features from pve-manager since fork
 
@@ -1705,7 +1705,7 @@ proxmox-widget-toolkit (1.0-10) unstable; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Thu, 25 Jan 2018 10:19:23 +0100
 
-proxmox-widget-toolkit (1.0-9) unstable; urgency=medium
+proxmox-widget-toolkit-without-nuisances (1.0-9) unstable; urgency=medium
 
   * add Xtermjs popup helper
 
@@ -1717,19 +1717,19 @@ proxmox-widget-toolkit (1.0-9) unstable; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Mon, 11 Dec 2017 14:43:17 +0100
 
-proxmox-widget-toolkit (1.0-8) unstable; urgency=medium
+proxmox-widget-toolkit-without-nuisances (1.0-8) unstable; urgency=medium
 
   * remove updatequeue
 
  -- Proxmox Support Team <support@proxmox.com>  Wed, 29 Nov 2017 12:09:03 +0100
 
-proxmox-widget-toolkit (1.0-7) unstable; urgency=medium
+proxmox-widget-toolkit-without-nuisances (1.0-7) unstable; urgency=medium
 
   * UpdateStore.js - fix update problem with chrome
 
  -- Proxmox Support Team <support@proxmox.com>  Thu, 23 Nov 2017 07:29:46 +0100
 
-proxmox-widget-toolkit (1.0-6) unstable; urgency=medium
+proxmox-widget-toolkit-without-nuisances (1.0-6) unstable; urgency=medium
 
   * change 'create' parameter to 'isCreate'
 
@@ -1743,13 +1743,13 @@ proxmox-widget-toolkit (1.0-6) unstable; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Tue, 14 Nov 2017 11:38:51 +0100
 
-proxmox-widget-toolkit (1.0-5) unstable; urgency=medium
+proxmox-widget-toolkit-without-nuisances (1.0-5) unstable; urgency=medium
 
   * use (de)activate events for dns/timeview
 
  -- Proxmox Support Team <support@proxmox.com>  Tue, 14 Nov 2017 08:12:09 +0100
 
-proxmox-widget-toolkit (1.0-4) unstable; urgency=medium
+proxmox-widget-toolkit-without-nuisances (1.0-4) unstable; urgency=medium
 
   * add textarea/enter workaround
 
@@ -1777,7 +1777,7 @@ proxmox-widget-toolkit (1.0-4) unstable; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Tue, 24 Oct 2017 08:45:15 +0200
 
-proxmox-widget-toolkit (1.0-3) unstable; urgency=medium
+proxmox-widget-toolkit-without-nuisances (1.0-3) unstable; urgency=medium
 
   * monStoreErrors: new option clearMaskBeforeLoad
 
@@ -1795,13 +1795,13 @@ proxmox-widget-toolkit (1.0-3) unstable; urgency=medium
 
  -- Proxmox Support Team <support@proxmox.com>  Wed, 06 Sep 2017 09:37:27 +0200
 
-proxmox-widget-toolkit (1.0-2) unstable; urgency=medium
+proxmox-widget-toolkit-without-nuisances (1.0-2) unstable; urgency=medium
 
   * countless improvements
 
  -- Proxmox Support Team <support@proxmox.com>  Wed, 05 Apr 2017 10:22:47 +0200
 
-proxmox-widget-toolkit (1.0-1) unstable; urgency=medium
+proxmox-widget-toolkit-without-nuisances (1.0-1) unstable; urgency=medium
 
   * first try
 
