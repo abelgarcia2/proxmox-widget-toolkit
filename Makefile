@@ -1,6 +1,6 @@
 include /usr/share/dpkg/pkg-info.mk
 
-PACKAGE=proxmox-widget-toolkit
+PACKAGE=proxmox-widget-toolkit-without-nuisances
 
 DEB=$(PACKAGE)_$(DEB_VERSION)_all.deb
 DEV_DEB=$(PACKAGE)-dev_$(DEB_VERSION)_all.deb
