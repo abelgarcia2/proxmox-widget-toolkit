@@ -3,7 +3,7 @@
 *.deb
 *.dsc
 *.tar.xz
-/proxmox-widget-toolkit-[0-9]*/
+/proxmox-widget-toolkit-without-nuisances-[0-9]*/
 src/.lint-incremental
 src/proxmox-dark/theme-proxmox-dark.css
 src/proxmoxlib.js
