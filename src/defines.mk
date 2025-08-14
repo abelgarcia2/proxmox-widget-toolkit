@@ -1,4 +1,4 @@
-PACKAGE ?= $(or $(DEB_SOURCE), proxmox-widget-toolkit)
+PACKAGE ?= proxmox-widget-toolkit
 
 DESTDIR=
 DOCDIR=$(DESTDIR)/usr/share/doc/$(PACKAGE)
