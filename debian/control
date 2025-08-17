@@ -12,8 +12,8 @@ Homepage: https://github.com/abelgarcia2/proxmox-widget-toolkit
 
 Package: proxmox-widget-toolkit-without-nuisances
 Architecture: all
-Breaks: proxmox-widget-toolkit (<< 5.0.4)
-Replaces: proxmox-widget-toolkit (<< 5.0.4)
+Breaks: proxmox-widget-toolkit (<= 5.0.4)
+Replaces: proxmox-widget-toolkit (<= 5.0.4)
 Depends: ${misc:Depends}
 Description: Core Widgets and ExtJS Helper Classes for Proxmox Web UIs
  The base framework providing widgets, models, and general utilities for the
@@ -22,8 +22,8 @@ Description: Core Widgets and ExtJS Helper Classes for Proxmox Web UIs
 
 Package: proxmox-widget-toolkit-without-nuisances-dev
 Architecture: all
-Breaks: proxmox-widget-toolkit-dev (<< 5.0.4)
-Replaces: proxmox-widget-toolkit-dev (<< 5.0.4)
+Breaks: proxmox-widget-toolkit-dev (<= 5.0.4)
+Replaces: proxmox-widget-toolkit-dev (<= 5.0.4)
 Depends: ${misc:Depends}
 Description: ExtJS based widgets and utilities for development
  Contains some common JavaScript code that some Proxmox projects might used to
