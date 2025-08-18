@@ -48,4 +48,4 @@ jobs:
       - name: Publish release
         uses: softprops/action-gh-release@v2
         with:
-          files: proxmox-widget-toolkit_5.0.4_all.deb
+          files: proxmox-widget-toolkit-without-nuisances_*.*.*_all.deb
