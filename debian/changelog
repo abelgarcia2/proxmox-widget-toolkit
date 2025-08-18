@@ -1,3 +1,9 @@
+proxmox-widget-toolkit-without-nuisances (5.0.4-patched) trixie; urgency=medium
+
+    * Bump version to 5.0.4-patched
+
+ -- Abel García <65343232+abelgarcia2@users.noreply.github.com>  Mon, 18 Aug 2025 10:42:18 +0200
+
 proxmox-widget-toolkit-without-nuisances (5.0.4) trixie; urgency=medium
 
   * network edit: fix hiding of altnames field if disabled by config.
